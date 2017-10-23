@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{title}}</h1>
+  </div>
+
+  <div *ngFor="let question of questions" class="panel panel-primary">
+
+ 
+
+    <div class="panel-heading">{{question.questionText}}</div>
+    <div class="panel-body">
+      <form>
+        <div *ngFor="let answer of question.answers" class="radio">
+          <label><input type="radio" name="question1" value="{{answer.answerid}}">{{answer.answerText}}</label>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
