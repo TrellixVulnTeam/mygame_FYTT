@@ -18,19 +18,19 @@ const QUESTIONS: Question[] = [
 		answers: [
 			{
 				answerid: 'Q1A1',
-				answerText: 'Answer 1'	
+				answerText: 'The Answer 1'	
 			},
 			{
 				answerid: 'Q1A2',
-				answerText: 'Answer 2'	
+				answerText: 'The Answer 2'	
 			},
 			{
 				answerid: 'Q1A3',
-				answerText: 'Answer 3'	
+				answerText: 'The Answer 3'	
 			},
 			{
 				answerid: 'Q1A4',
-				answerText: 'Answer 4'	
+				answerText: 'The Answer 4'	
 			}
 		]
 	}
